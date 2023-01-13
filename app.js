@@ -59,7 +59,7 @@ const httpRequestListener = function (request, response) {
         response.writeHead(200, { "Content-type": "application/json" });
         response.end(JSON.stringify({ message: "userCreated" }));
       });
-      //post
+      //posting 게시글 등록하기 반영된 코드
     } else if (url === "/posts/posting") {
       let body = "";
 
